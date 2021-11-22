@@ -14,13 +14,12 @@ This can be done by running the `docker-compose.yml` with the following command 
 docker-compose up -d
 ```
 
-## How ot test the REST API 
+## How to test the REST API 
 This can be done after starting the application, and opening the following URL : 
 ```
 http://localhost:8081/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
 ```
-
-After that the application can be run locally and connected to the local database.
+The Application is by default running on 8081. This can be changed using the `server.port` property in the `application.properties` file.
 
 ## Assumptions and Improvements
 A number of things are on purpose kept simple so as not to blow the assignment scope out of proportion, they're as follows:
